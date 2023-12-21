@@ -17,11 +17,11 @@ public class Problema00 {
         String[] nombresEstudiante = {"Jerr Ponce", "Gabriela Lewis", "David Bell"};
         double[] promedios = new double[3];
                             
-        double suma = 0;
+        double suma;
         String reporte = "";
         
         for (int i = 0; i < notas.length; i++) { 
-            
+            suma=0;
             for (int j = 0; j < notas[i].length; j++) { 
                 suma = suma + notas[i][j];
                      
